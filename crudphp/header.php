@@ -12,10 +12,16 @@
         </div>
     </header>
     <nav class="navbar navbar-expand-lg p-0 navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="principal.php">Home</a>
-            <a class="navbar-brand" href="usuarios_cadastro.php">Usuários</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="principal.php">Home</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="usuarios_cadastro.php">Usuários</a>
+        </li>
             <div class="collapse navbar-collapse">
+        </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <form method="POST" action="">
